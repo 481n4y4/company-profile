@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-[Poppins] bg-white text-black"></body>
+    <header
+      class="fixed flex justify-between py-2 px-4 items-center bg-white min-h-15 top-0 right-0 left-0 z-9999"
+    >
+      <div class="text-2xl font-semibold">SMK NEGERI 7 SEMARANG</div>
+
+      <nav>
+        <ul class="flex flex-row gap-5">
+          <li><a href="#home" class="rounded-lg p-2 font-light hover:font-semibold">Home</a></li>
+          <li><a href="#about" class="rounded-lg p-2 font-light hover:font-semibold">About</a></li>
+          <li><a href="#jurusan" class="rounded-lg p-2 font-light hover:font-semibold">Jurusan</a></li>
+          <li><a href="#lookbook" class="rounded-lg p-2 font-light hover:font-semibold">Lookbook</a></li>
+          <li><a href="#testimoni" class="rounded-lg p-2 font-light hover:font-semibold">Testimoni</a></li>
+          <li><a href="#contact" class="rounded-lg p-2 font-light hover:font-semibold">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="justify-items-center">
+      <!-- Hero Section -->
+        <section id="home" class="flex min-h-180 py-[44px]">
+        <div class="container flex flex-row mx-[1rem] my-[3rem] text-black items-center">
+          <div class="content">
+            <h1 class="font-medium text-6xl">SEKOLAH MENENGAH KEJURUAN NEGERI 7 SEMARANG</h1>
+            <p class="font-light text-lg">Tiada Hari Tanpa Prestasi</p>
+            <button type="button" class="bg-blue-400 py-1 px-3 rounded-lg text-base text-white" >Get in Touch</button>
+          </div>
+          <div class="image justify-items-center">
+            <img src="assets/img/Logo SMK 7 SMG.jpg" class="w-[700px]" alt="Logo">
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="py-[44px]">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+          <h2 class="text-3xl mb-4 font-medium px-5 py-2 bg-[#DEE2E6] text-black inline-block rounded-full">About SMK Negeri 7 Semarang</h2>
+          <p class="text-2xl text-center font-light">SMK Negeri 7 Semarang diresmikan pada tanggal 7 Juni 1971 oleh Presiden Republik Indonesia -Suharto, dengan nama Proyek Perintis Sekolah Teknologi Menengah Pembangunan Semarang dengan lama pendidikan 4 (empat) tahun.</p>
+        </div>
+      </section>
+      
+      <!-- Jurusan Section -->
+      <section id="jurusan" class="py-[44px]">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+          <h2 class="text-3xl mb-4 font-medium px-5 py-2 bg-[#DEE2E6] text-black inline-block rounded-full">Jurusan Konsentrasi Keahlian</h2>
+          <div class="jurusan-grid flex flex-col">
+            <div class="jurusan-card flex flex-row gap-5 my-[1rem]">
+              <div class="jurusan-img flex-5">
+                <img class="w-[1024px] h-[375px] object-cover rounded-4xl" src="assets/img/SIJA.jpg" alt="SIJA" >
+              </div>
+              <div class="jurusan-content flex-5 content-center text-left">
+                <h3 class="jurusan-title text-2xl font-medium">Sistem informasi Jaringan dan Aplikasi</h3>
+                <p class="jurusan-desc">Jurusan yang berfokus pada pembuatan perangkat lunak dan pengembangan gim berbasis komputer maupun mobile.</p>
+                <button type="button" class="bg-blue-400 py-1 px-3 rounded-lg text-base text-white mt-2"><a href="#">Learn More</a></button>
+              </div>
+            </div>
+            <div class="jurusan-card flex flex-row-reverse gap-5 my-[1rem]">
+              <div class="jurusan-img flex-5">
+                <img class="w-[1024px] h-[375px] object-cover rounded-4xl" src="assets/img/KJIJ.jpg" alt="SIJA" >
+              </div>
+              <div class="jurusan-content flex-5 content-center text-right ">
+                <h3 class="jurusan-title text-2xl font-medium">Konstruksi Jalan Irigasi dan Jembatan</h3>
+                <p class="jurusan-desc">Jurusan yang mempelajari perencanaan, pembangunan, serta pemeliharaan bangunan perumahan dan fasilitas umum dengan menerapkan prinsip konstruksi.</p>
+                <button type="button" class="bg-blue-400 py-1 px-3 rounded-lg text-base text-white mt-2"><a href="#">Learn More</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LookBook Section -->
+      <section id="lookbook" class="py-[44px]">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+          <h2 class="text-3xl mb-4 font-medium px-5 py-2 bg-[#DEE2E6] text-black inline-block rounded-full">
+            Lookbook
+          </h2>
+          <div class="mb-4">
+            <h2 class="text-lg font-semibold">Informasi Terkait Kegiatan Sekolah</h2>
+          </div>
+          <div class="flex overflow-x-auto space-x-4">
+            <div class="min-w-[200px] shrink-0 text-black p-6 text-center">
+              <img src="assets/img/Dokumentasi Sekolah/Kelulusan.png" alt="Kelulusan" class="w-[200px] h-[200px] rounded-lg object-cover m-auto">
+              <h3 class="font-medium text-center mt-1.5">Kelususan Angkatan 2025</h3>
+              <button type="button" class="bg-blue-400 py-1 px-3 rounded-lg text-base text-white mt-2"><a href="#">Learn More</a></button>
+            </div>
+            <div class="min-w-[200px] shrink-0 text-black p-6 text-center">
+              <img src="assets/img/Dokumentasi Sekolah/Kontingen_lks.png" alt="Kelulusan" class="w-[200px] h-[200px] rounded-lg object-cover m-auto">
+              <h3 class="font-medium text-center mt-1.5">Selamat Berjuang Kontingen LKS</h3>
+              <button type="button" class="bg-blue-400 py-1 px-3 rounded-lg text-base text-white mt-2"><a href="#">Learn More</a></button>
+            </div>
+            <div class="min-w-[200px] shrink-0 text-black p-6 text-center">
+              <img src="assets/img/Dokumentasi Sekolah/SPMB.png" alt="Kelulusan" class="w-[200px] h-[200px] rounded-lg object-cover m-auto">
+              <h3 class="font-medium text-center mt-1.5">Sistem Penerimaan Murid Baru</h3>
+              <button type="button" class="bg-blue-400 py-1 px-3 rounded-lg text-base text-white mt-2"><a href="#">Learn More</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimoni Section -->
+      <section id="testimoni" class="py-[44px]">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+          <h2 class="text-3xl mb-4 font-medium px-5 py-2 bg-[#DEE2E6] text-black inline-block rounded-full">Testimoni Alumni & Orang Tua</h2>
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow">
+              <p class="italic text-gray-700">"Selama saya belajar di SMK Negeri 7 Semarang, saya tidak hanya mendapatkan ilmu teknik, tetapi juga pembentukan karakter yang kuat. Fasilitas lengkap dan guru yang kompeten sangat membantu saya bersaing di dunia kerja."</p>
+              <h4 class="mt-4 font-semibold text-green-600">– Aditya R., Alumni Teknik Komputer dan Jaringan</h4>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow">
+              <p class="italic text-gray-700">"Anak saya sekarang bekerja di perusahaan otomotif ternama berkat bimbingan dari guru-guru SMK Negeri 7 Semarang. Saya sangat bersyukur atas pembelajaran dan dukungan yang diberikan selama tiga tahun."</p>
+              <h4 class="mt-4 font-semibold text-green-600">– Ibu Lestari, Orang Tua Alumni</h4>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow">
+              <p class="italic text-gray-700">"Lingkungan sekolah yang positif dan program magang industri yang aktif membuat saya lebih siap menghadapi dunia kerja nyata. Terima kasih SMKN 7 Semarang!"</p>
+              <h4 class="mt-4 font-semibold text-green-600">– Rina M., Alumni Akuntansi</h4>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow">
+              <p class="italic text-gray-700">"Sebagai orang tua, saya merasa tenang karena anak saya mendapatkan pendidikan yang seimbang antara teori dan praktik. SMKN 7 Semarang benar-benar membekali siswa dengan keterampilan yang dibutuhkan."</p>
+              <h4 class="mt-4 font-semibold text-green-600">– Pak Slamet, Orang Tua Siswa</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="py-[44px]">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+          <h2 class="text-3xl mb-4 font-medium px-5 py-2 bg-[#DEE2E6] text-black inline-block rounded-full">Hubungi Kami</h2>
+
+          <div class="grid md:grid-cols-2 gap-8">
+            <div class="space-y-4 text-left">
+              <p class="text-gray-700">
+                Jika Anda memiliki pertanyaan seputar program pendidikan, pendaftaran, atau kerja sama industri, silakan hubungi kami melalui informasi berikut:
+              </p>
+
+              <div class="space-y-2 text-gray-600">
+                <p><strong>Alamat:</strong> Jl. Simpang Lima No. 1, Semarang, Jawa Tengah</p>
+                <p><strong>Telepon:</strong> (024) 8312345</p>
+                <p><strong>Email:</strong> info@smkn7semarang.sch.id</p>
+                <p><strong>Jam Operasional:</strong> Senin – Jumat, 07.00 – 15.00 WIB</p>
+              </div>
+            </div>
+
+            <form class="bg-gray-100 p-6 rounded-lg shadow-md space-y-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-700">Nama</label>
+                <input type="text" class="w-full p-2 border rounded-md" placeholder="Nama Anda" required>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-700">Email</label>
+                <input type="email" class="w-full p-2 border rounded-md" placeholder="Email Anda" required>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-700">Pesan</label>
+                <textarea class="w-full p-2 border rounded-md" rows="4" placeholder="Tulis pesan Anda..." required></textarea>
+              </div>
+              <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">
+                Kirim Pesan
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </body>
+</html>
